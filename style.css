@@ -46,3 +46,15 @@
  .mobile-gate-form small{display:block;min-height:18px;margin-top:7px;color:#b02f4b;font-weight:900}
  .title-mobile-start{display:block}
 }
+
+/* Portada final: ilustración limpia y contraseña en un panel separado debajo */
+.cover-stage{width:min(96vw,1320px);aspect-ratio:1672/941;margin:0 auto}
+.cover-art{width:100%;height:100%;object-fit:contain}
+.cover-form{display:none!important}
+.mobile-gate-form{display:block;width:min(440px,94vw);padding:18px 20px 20px;border:2px solid #fff8e8;border-radius:20px;background:linear-gradient(145deg,#fff8ef,#f8dce3);box-shadow:0 8px 25px #9a536033;text-align:center;color:#844254}
+.mobile-gate-form p{margin:0 0 12px;font-weight:900;line-height:1.5}
+.mobile-gate-form label{display:block;font-weight:900;margin-bottom:8px}
+.mobile-gate-form input{display:block;width:100%;padding:13px;border:2px solid #e7a9b5;border-radius:12px;background:#fffaf5;color:#733c4d;text-align:center;outline:none}
+.mobile-gate-form form button{display:block;width:100%;margin-top:10px;padding:13px;border:0;border-radius:13px;background:linear-gradient(#ff9eaa,#e65c76);color:white;font-weight:900;box-shadow:0 4px #b64c65}
+.mobile-gate-form small{display:block;min-height:18px;margin-top:7px;color:#b02f4b;font-weight:900}
+@media(max-width:900px),(pointer:coarse){.cover-stage{width:100%;aspect-ratio:1672/941;margin-top:1vh}.mobile-gate-form{width:min(440px,94vw)}}
